@@ -1,0 +1,317 @@
+.bg {  
+    background-color:rgb(72, 168, 65);
+  animation-name: example;
+  animation-duration: 12s;
+}
+
+@keyframes example {
+  from {background-color:rgb(0, 0, 0)}
+  to { background-color:rgb(72, 168, 65)}
+  
+}
+/* side icon */
+.bottleimg {
+
+
+  width: 34px;
+  height: 80px;
+  padding-top: 1px;
+  padding-left: 150px;
+
+ 
+
+  
+}
+
+.left-side{
+    float: left;
+    width: 80%;
+
+}
+
+
+.right-side{
+    float: left;
+    width:20%;
+   
+}
+
+.options-img {
+ 
+  color: black; 
+  text-align: center;
+  font-size: 30px;
+  padding: 3px;
+  width: 38px;
+  transition: all 1s;
+  cursor: pointer;
+  margin-left: 400px;
+  font-weight: bolder;
+  font-family: monospace;
+  
+}
+
+
+
+.options-img:hover{
+  color:rgb(255, 255, 255);
+}
+
+
+/* button1 home */
+.label1 {
+ 
+  color: black; 
+  text-align: center;
+  font-size: 30px;
+  padding: 3px;
+  width: 80px;
+  transition: all 1s;
+  cursor: pointer;
+  margin-left: 400px;
+  font-weight: bolder;
+  font-family: monospace;
+ 
+}
+
+
+
+.label1:hover{
+  color:rgb(255, 255, 255);
+}
+.hr{
+  margin-block-start:0px;
+    margin-block-end:0px;
+    height:0.5px;
+    background: rgb(202, 245, 132);
+}
+
+@keyframes rotate{
+from{ transform: rotate(-360deg); }
+to{ transform: rotate(360deg); }
+}
+
+/* 11111111111111111111111 */
+
+.corona1{
+    width: 33px;
+    height: 33px;
+  animation-name: rotate;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+    margin-left: 30px;
+    padding-top: 25px;
+    
+}
+.corona1:hover{
+  width: 33px;
+    height: 33px;
+    animation-duration: 7s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    animation-direction: alternate-reverse;
+}
+
+/* 2222222222222222 */
+
+.corona2{
+  width: 40px;
+  height: 40px;
+animation-name: rotate;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function:linear;
+  margin-left: 30px;
+  padding-top: 25px;
+  animation-direction: alternate-reverse;
+  
+}
+.corona2:hover{
+width: 40px;
+  height: 40px;
+  animation-duration: 4s;
+  animation-iteration-count:infinite;
+  animation-timing-function:linear;
+  animation-direction: normal;
+}
+
+/* 333333333333333333 */
+.corona3{
+  width: 35px;
+  height: 35px;
+animation-name: rotate;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function:linear;
+  margin-left: 30px;
+  padding-top: 25px;
+  
+}
+.corona3:hover{
+width: 35px;
+  height: 35px;
+  animation-duration: 6s;
+  animation-iteration-count:infinite;
+  animation-timing-function:linear;
+  animation-direction:alternate;
+}
+
+/* 44444444444444444444 */
+
+.corona4{
+  width: 40px;
+  height: 40px;
+animation-name: rotate;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function:linear;
+  margin-left: 30px;
+  padding-top: 25px;
+  animation-direction: alternate-reverse;
+  
+}
+.corona4:hover{
+width: 40px;
+  height: 40px;
+  animation-duration: 5s;
+  animation-iteration-count:infinite;
+  animation-timing-function:linear;
+  animation-direction: normal;
+}
+
+/* 555555555555555555555 */
+
+
+.corona5{
+  width: 30px;
+  height: 30px;
+animation-name: rotate;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function:linear;
+  margin-left: 30px;
+  padding-top: 25px;
+  
+}
+.corona5:hover{
+width: 30px;
+  height:30px;
+  animation-duration: 4s;
+  animation-iteration-count:infinite;
+  animation-timing-function:linear;
+}
+
+/* 6666666666666666666 */
+
+.corona6{
+  width: 30px;
+  height: 30px;
+animation-name: rotate;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function:linear;
+  margin-left: 30px;
+  padding-top: 25px;
+  animation-direction: alternate-reverse;
+}
+.corona6:hover{
+width: 20px;
+  height: 20px;
+  animation-duration: 4s;
+  animation-iteration-count:infinite;
+  animation-timing-function:linear;
+  animation-direction: normal;
+}
+
+/* 77777777777777777777 */
+
+
+.corona7{
+  width: 35px;
+  height: 35px;
+animation-name: rotate;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function:linear;
+  margin-left: 30px;
+  padding-top: 25px;
+  
+}
+.corona7:hover{
+width: 35px;
+  height: 35px;
+  animation-duration: 4s;
+  animation-iteration-count:infinite;
+  animation-timing-function:linear;
+  animation-direction: alternate-reverse;
+}
+
+
+/* 888888888888888888 */
+
+.corona8{
+  width: 40px;
+  height: 40px;
+animation-name: rotate;
+  animation-duration: 13s;
+  animation-iteration-count: infinite;
+  animation-timing-function:linear;
+  margin-left: 30px;
+  padding-top: 25px;
+  animation-direction: alternate-reverse;
+  
+}
+.corona8:hover{
+width: 30px;
+  height: 30px;
+  animation-duration: 4s;
+  animation-iteration-count:infinite;
+  animation-timing-function:linear;
+  animation-direction: normal;
+}
+
+/* 999999999999999999999999 */
+
+.corona9{
+  width: 40px;
+  height: 40px;
+animation-name: rotate;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function:linear;
+  margin-left: 30px;
+  padding-top: 10px;
+  
+}
+.corona9:hover{
+width: 20px;
+  height: 20px;
+  animation-duration: 4s;
+  animation-iteration-count:infinite;
+  animation-timing-function:linear;
+}
+
+/* 10000000000000000000000000000000 */
+
+.corona10{
+  width: 30px;
+  height: 30px;
+animation-name: rotate;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-timing-function:linear;
+  margin-left: 10px;
+  padding-top: 10px;
+  animation-direction: reverse;
+  animation-direction: reverse;
+  
+}
+.corona10:hover{
+width: 20px;
+  height: 20px;
+  animation-duration: 4s;
+  animation-iteration-count:infinite;
+  animation-timing-function:linear;
+  animation-direction: normal;
+}

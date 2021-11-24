@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>anime</title>
+  <link rel = "icon" href ="c0.png"
+          type = "image/x-icon">
+          <link rel="stylesheet" href="style.css">
+<style> 
+
+</style>
+</head>
+
+<body class="bg">
+
+ <div> 
+    <img src="options.png" alt="options" class="options-img">
+        <label class="label1">HOME</label>
+</div>
+    
+
+
+<hr class="hr">
+<div class="left-side" id="hide" style="transition: all 10s;">
+
+
+
+
+  <img class="corona1" src="c1.png">
+  <img class="corona2" src="c2.png">
+  <img class="corona3" src="c3.png"> 
+  <img class="corona4" src="c4.png">
+  <img class="corona5" src="c5.png">
+  <img class="corona6" src="c1.png">
+  <img class="corona7" src="c2.png"> 
+  <img class="corona8" src="c5.png">
+  <img class="corona9" src="c3.png"> 
+  <img class="corona10" src="c4.png">
+
+
+
+</div>
+<div class="right-side">
+   
+  <img src="bottle.png"  alt="bottle"class="bottleimg" onclick="playAudio(); myFunction()" onmouseover="bigImg(this)" onmouseout="normalImg(this)" >
+        <audio id="myAudio">
+        <source src="bottle.ogg" type="audio/ogg">
+         </audio>
+      
+  <script>
+  var x = document.getElementById("myAudio"); 
+
+    function playAudio() { 
+      x.play(); 
+    } 
+    
+    function pauseAudio() { 
+      x.pause(); 
+    }  </script>
+      
+      <script>
+        function myFunction() {
+          document.getElementById("hide").style.opacity = "0";
+        }
+        </script>
+
+<script>
+function bigImg(x) {
+  x.style.height = "82px";
+  x.style.width = "36px";
+}
+
+function normalImg(x) {
+  x.style.height = "80px";
+  x.style.width = "34px";
+}
+</script>
+
+
+
+
+
+</div>
+</body>
+</html>
